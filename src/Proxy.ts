@@ -90,7 +90,7 @@ export class Proxy extends (EventEmitter as new () => TypedEmitter<ProxyEvents>)
 				}
 			})
 			this.targetClient = mc.createClient(({
-				host: "mc.hypixel.net",
+				host: "cosmicprisons.com",
 				port: 25565,
 				username: client.username,
 				keepAlive: false,
